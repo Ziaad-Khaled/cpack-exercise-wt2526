@@ -1,0 +1,14 @@
+Lintian Output After Task 4 Improvements
+=========================================
+
+--- Lintian Output ---
+running with root privileges is not recommended!
+E: cpackexample: no-changelog usr/share/doc/cpackexample/changelog.gz (native package)
+W: cpackexample: no-manual-page [usr/bin/cpackexample]
+
+--- File Size ---
+2.6M    cpackexample_0.1.0_amd64.deb
+
+Summary of Errors and Warnings:
+- 1 Error (E) - down from 6
+- 1 Warning (W) - same as before

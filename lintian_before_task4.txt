@@ -1,0 +1,18 @@
+Lintian Output Before Task 4 Improvements
+==========================================
+
+--- Lintian Output ---
+running with root privileges is not recommended!
+E: cpackexample: extended-description-is-empty
+E: cpackexample: malformed-contact Maintainer Ziad
+E: cpackexample: no-changelog usr/share/doc/cpackexample/changelog.gz (native package)
+E: cpackexample: no-copyright-file
+E: cpackexample: unstripped-binary-or-object [usr/bin/cpackexample]
+W: cpackexample: no-manual-page [usr/bin/cpackexample]
+
+--- File Size ---
+4.7M    cpackexample_0.1.0_amd64.deb
+
+Summary of Errors and Warnings:
+- 6 Errors (E)
+- 1 Warning (W)

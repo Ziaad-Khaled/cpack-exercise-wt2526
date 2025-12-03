@@ -6,7 +6,11 @@ set(CPACK_PACKAGE_MAINTAINER "Ziad Elshereif")
 
 set(CPACK_GENERATOR "TGZ;DEB")
 
+# Strip binaries to reduce package size
+set(CPACK_STRIP_FILES TRUE)
+
 # Debian specific settings
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Ziad Elshereif")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Ziad Elshereif <elshereifziad@gmail.com>")
+set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "CPack packaging exercise for Simulation Software Engineering course")
 set(CPACK_DEBIAN_FILE_NAME "DEB-DEFAULT")
 set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)

@@ -24,6 +24,7 @@ DEAL_II_SETUP_TARGET(cpackexamplelib)
 install(TARGETS "${PROJECT_NAME}" DESTINATION bin)
 install(TARGETS cpackexamplelib DESTINATION lib)
 install(FILES fem/fem.hpp filesystem/filesystem.hpp flatset/flatset.hpp yamlParser/yamlParser.hpp DESTINATION include/cpackexamplelib)
+install(FILES debian/copyright DESTINATION share/doc/${PROJECT_NAME})
 
 include(cmake/CPackConfig.cmake)
 include(CPack)

@@ -1,0 +1,16 @@
+[ 71%] Built target cpackexamplelib
+[100%] Built target cpackexample
+Run CPack packaging tool...
+CPack: Create package using TGZ
+CPack: Install projects
+CPack: - Run preinstall target for: cpackexample
+CPack: - Install project: cpackexample []
+CPack: Create package
+CPack: - package: /mnt/cpack-exercise/build/cpackexample-0.1.0-Linux.tar.gz generated.
+CPack: Create package using DEB
+CPack: Install projects
+CPack: - Run preinstall target for: cpackexample
+CPack: - Install project: cpackexample []
+CPack: Create package
+CPackDeb: - Generating dependency list
+CPack: - package: /mnt/cpack-exercise/build/cpackexample_0.1.0_amd64.deb generated.
